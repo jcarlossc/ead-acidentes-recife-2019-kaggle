@@ -13,4 +13,4 @@ vendor/** linguist-vendored
 *.map linguist-generated
 
 # Força o reconhecimento dos arquivos Python como código principal
-*.py linguist-language=Python
+*.ipynb linguist-language=Python
