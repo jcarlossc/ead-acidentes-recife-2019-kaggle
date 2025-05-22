@@ -1,1 +1,16 @@
-linguist-language=Python
+# Marcar arquivos de documentação como tal
+docs/** linguist-documentation
+*.md linguist-documentation
+
+# Ignorar arquivos de dependência ou terceiros
+vendor/** linguist-vendored
+*.min.js linguist-vendored
+*.lock linguist-vendored
+
+# Ignorar arquivos gerados automaticamente
+*.html linguist-generated
+*.css linguist-generated
+*.map linguist-generated
+
+# Força o reconhecimento dos arquivos Python como código principal
+*.py linguist-language=Python
